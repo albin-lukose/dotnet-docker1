@@ -1,8 +1,0 @@
-RUN {{InsertTemplate("Dockerfile.linux.install-pkgs",
-    [
-        "pkgs": [
-            "ca-certificates",
-            "gzip",
-            "tar"
-        ]
-    ])}}
